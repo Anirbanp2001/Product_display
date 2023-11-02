@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: tomato;
+    opacity: 0.8;
+    color: white;
+    padding: 10px;
+    .search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 5px;
+        color: black;
+        input{
+            border: none;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+}
